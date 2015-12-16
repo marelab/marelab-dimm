@@ -1,0 +1,11 @@
+/Libraries/
+/OneWire/
+/U8glib/
+/adafruit/
+/arduino/
+/libmodbus/
+/makefile
+/modbus/
+/objects.mk
+/sources.mk
+/subdir.mk

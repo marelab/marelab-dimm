@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.1134962044">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.1134962044" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="it.baeyens.arduino.core.toolChain.release.1134962044" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.1134962044.591560726" name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.1884050429" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.571187698" name="Arduino Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/marelab_dimm}/Release" id="it.baeyens.arduino.sketch.builder.1158392370" keepEnvironmentInBuildfile="false" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.1665015819" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.1401525054" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/arduino/core"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/arduino/variant"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/EEPROM"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/Wire"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/Wire/utility"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.1178660731" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.2080481282" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.1664431476" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/arduino/core"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/arduino/variant"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/EEPROM"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/Wire"/>
+									<listOptionValue builtIn="false" value="Z:/PROJECT/eclipse_workspace/marelab_dimm/marelab_dimm/marelab_dimm/Libraries/Wire/utility"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.2055595313" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.s.436352554" name="Arduino Assembler" superClass="it.baeyens.arduino.tool.sketch.compiler.s"/>
+							<tool id="it.baeyens.arduino.tool.ar.1686777698" name="Arduino archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.1548982363" name="Arduino combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.635238348" name="Arduino tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.1456627212" name="Arduino tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.size.808350371" name="Arduino tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="OneWire|Libraries/*/?xamples|adafruit|libmodbus|modbus|Libraries/*/?xtras|U8glib|u8glib|u8g" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="OneWire"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="U8glib"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="adafruit"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libmodbus"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="it.baeyens.arduino.core.toolChain.release.1134962044.1058682641">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="it.baeyens.arduino.core.toolChain.release.1134962044.1058682641" moduleId="org.eclipse.cdt.core.settings" name="DEBUG">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="DEBUG" id="it.baeyens.arduino.core.toolChain.release.1134962044.1058682641" name="DEBUG" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="it.baeyens.arduino.core.toolChain.release.1134962044.1058682641." name="/" resourcePath="">
+						<toolChain id="it.baeyens.arduino.core.toolChain.release.1563706854" name="Arduino Toolchain" superClass="it.baeyens.arduino.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="it.baeyens.arduino.targetplatform.1921751121" name="Arduino Target" osList="all" superClass="it.baeyens.arduino.targetplatform"/>
+							<builder buildPath="${workspace_loc:/marelab_dimm}/Release" id="it.baeyens.arduino.sketch.builder.830500632" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Arduino sketch builder" superClass="it.baeyens.arduino.sketch.builder"/>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.cpp.1997014962" name="Arduino C++ Compiler" superClass="it.baeyens.arduino.tool.sketch.compiler.cpp">
+								<option id="it.baeyens.arduino.compiler.cpp.sketch.option.incpath.2106692916" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/arduino/core"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/arduino/variant"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/EEPROM"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/Wire"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/Wire/utility"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/SPI"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.787423087" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.compiler.c.595994765" name="Arduino C Compiler" superClass="it.baeyens.arduino.tool.compiler.c">
+								<option id="it.baeyens.arduino.compiler.c.sketch.option.incpath.1714836032" name="Include Paths (-I)" superClass="it.baeyens.arduino.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/arduino/core"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/arduino/variant"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/EEPROM"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/Wire"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/Wire/utility"/>
+									<listOptionValue builtIn="false" value="../marelab_dimm/marelab_dimm/Libraries/SPI"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/arduino/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/EEPROM}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/marelab_dimm/Libraries/Wire/utility}&quot;"/>
+								</option>
+								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1438824034" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="it.baeyens.arduino.tool.sketch.compiler.s.2145675516" name="Arduino Assembler" superClass="it.baeyens.arduino.tool.sketch.compiler.s"/>
+							<tool id="it.baeyens.arduino.tool.ar.1358937159" name="Arduino archiver" superClass="it.baeyens.arduino.tool.ar"/>
+							<tool id="it.baeyens.arduino.tool.combine.2091347928" name="Arduino combiner" superClass="it.baeyens.arduino.tool.combine"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.eep.972529661" name="Arduino tool Create eeprom" superClass="it.baeyens.arduino.tool.objcopy.eep"/>
+							<tool id="it.baeyens.arduino.tool.objcopy.flash.485780436" name="Arduino tool Create hex" superClass="it.baeyens.arduino.tool.objcopy.flash"/>
+							<tool id="it.baeyens.arduino.tool.size.1607313263" name="Arduino tool Print Size" superClass="it.baeyens.arduino.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="OneWire|libmodbus|Libraries/*/?xamples|adafruit|modbus|Libraries/*/?xtras|U8glib|u8glib|u8g" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="OneWire"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="U8glib"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="adafruit"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libmodbus"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="marelab_dimm.null.1719038789" name="marelab_dimm"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="DEBUG">
+			<resource resourceType="PROJECT" workspacePath="/marelab_dimm"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/marelab_dimm"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="it.baeyens.arduino.core.toolChain.release.1134962044;it.baeyens.arduino.core.toolChain.release.1134962044.591560726;de.innot.avreclipse.tool.cppcompiler.base.286198886;de.innot.avreclipse.cppcompiler.input.1686499540">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.arduino.core.toolChain.release.1134962044;it.baeyens.arduino.core.toolChain.release.1134962044.591560726;de.innot.avreclipse.tool.compiler.winavr.base.1827195203;de.innot.avreclipse.compiler.winavr.input.1955841270">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.arduino.core.toolChain.release.1134962044;it.baeyens.arduino.core.toolChain.release.1134962044.591560726;de.innot.avreclipse.tool.cppcompiler.base.525338849;de.innot.avreclipse.cppcompiler.input.1683775434">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="it.baeyens.arduino.core.toolChain.release.1134962044;it.baeyens.arduino.core.toolChain.release.1134962044.591560726;de.innot.avreclipse.tool.compiler.winavr.base.1005589016;de.innot.avreclipse.compiler.winavr.input.259513628">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="de.innot.avreclipse.core.AVRGCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
